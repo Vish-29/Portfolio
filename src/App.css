@@ -1,0 +1,33 @@
+ /* app css file
+  Vishva Patel 
+ 301302055
+ 28-09-2024 */
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+
+
+
+.logo {
+  height: 5px; 
+}
+
+
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

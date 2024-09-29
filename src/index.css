@@ -1,0 +1,189 @@
+/*  website css file
+  Vishva Patel 
+ 301302055
+  28-09-2024 */
+
+  /* Global Style */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+
+  color-scheme: rgb(255, 21, 153);
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0f0631;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Navigation Bar */
+nav {
+  float:right;
+  font-size:x-large;
+  display: inline;
+  margin-left: 500px;
+  margin-right: 100px;
+  }
+  
+  .myname {
+    display: grid;
+    
+  }
+  .logo-container {
+  margin: 0;
+  padding: 0;
+  
+  }
+  
+  .logo {
+    margin:0;
+    padding: 0;
+    height: 2cm;
+    width: 3cm;
+  }
+
+  /* Link style */
+
+a {
+  font-weight: 500;
+  color: #7ddcff;
+  text-decoration: none;
+}
+a:hover {
+  color: #e799ff;
+}
+
+body {
+  margin: 0;
+ 
+}
+
+/* home page style */
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+/* about page style */
+.about {
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 10px 170px;
+}
+
+/* light mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Contact Page */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #2e3b91;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #d2f4fd;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Input and Textarea */
+input, textarea {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+input:focus, textarea:focus {
+  border-color: #7ddcff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(125, 220, 255, 0.5);
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+/* submit button */
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #f0a657;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5bb1cc;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  input, textarea, button {
+    font-size: 1em;
+  }
+}
+
+.contact-info-panel {
+  align-self: self-start;
+  background-color: #2e3b91;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+
+
