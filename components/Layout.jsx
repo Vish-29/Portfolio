@@ -11,7 +11,7 @@ export default function Layout() {
     <>
 
       <div class="logo-container">
-        <img src="../src/assets/logo.svg" alt="Logo" class="logo" />
+        <img src={logo} alt="Logo" class="logo" />
       </div>
       
       <nav>
