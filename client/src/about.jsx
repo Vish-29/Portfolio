@@ -3,7 +3,7 @@
 //  301302055
 //  28-09-2024
 import React from 'react';
-import profile from '../src/assets/PROFILE.jpg';
+import profile from './assets/PROFILE.jpg';
 
 const About = () => {
   return (

@@ -3,9 +3,9 @@
 //  301302055
 //  28-09-2024
 
-import projectImage1 from '../src/assets/project1.png'; 
-import projectImage2 from '../src/assets/project2.png';
-import projectImage3 from '../src/assets/project3.png'; 
+import projectImage1 from './assets/project1.png'; 
+import projectImage2 from './assets/project2.png';
+import projectImage3 from './assets/project3.png'; 
 
 export default function Project() {
     return (
